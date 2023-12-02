@@ -1,0 +1,201 @@
+/* ==========================
+    - Hero Slider CSS
+==============================*/
+.hero-slider {
+    &-one {
+        height: 900px;
+        padding: 140px 0;
+        @media #{$tablet-device} {
+            height: 700px;
+            padding: 100px 0;
+            .hero-slider-content-inner {
+                margin-top: 40px;
+            }
+        }
+        @media #{$large-mobile} {
+            height: auto;
+            padding: 60px 0;
+            .hero-slider-inner-image-two { 
+                img { 
+                    height: 300px;
+                    width: auto;
+                }
+            }
+        }
+        @media #{$small-mobile} {
+            .hero-slider-content-inner {
+                margin-top: 40px;
+            }
+        }
+    }
+    &-item {
+        position: relative;
+        @media #{$large-mobile} {
+            height: 320px;
+            .hero-slider-image {
+                & img {
+                    height: 320px;
+                    background-color: $gray;
+                }
+            }
+        }
+    }
+    &-image {
+        position: relative;
+        img {
+            width: 100%;
+            height: auto;
+            object-fit: cover;
+            background-color: $gray;
+        }
+    }
+    &-content {
+        position: absolute;
+        top: 50%;
+        width: 100%;
+        transform: translateY(-50%);
+    }
+    &-description {
+        font-size: 18px;
+        margin-bottom: 0;
+    }
+}
+.hero-slider {
+    &-inner {
+        &-images {
+            text-align: center;
+            position: relative;
+        }
+        &-image {
+            &-one {
+                position: relative;
+            }
+            &-two {
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                width: 100%;
+                @media #{$large-mobile} {
+                    img { 
+                        height: 360px;
+                        width: auto;
+                    }
+                }
+            }
+        }
+    }
+
+}
+
+.hero-slider-decs {
+    @media #{$large-mobile} {
+        font-size: 15px !important;
+        br {
+            display: none;
+        }
+    }
+}
+.hero-slider-two {
+    position: relative;
+    height: 940px;
+    background-color: #FFF0E9;
+    padding: 140px 0;
+    display: flex;
+    align-items: center;
+    @media #{$desktop-device} {
+        height: 820px;
+        padding: 100px 0;
+    }
+    @media #{$laptop-device} {
+        height: 680px;
+        padding: 100px 0;
+    }
+    @media #{$tablet-device} {
+        height: 560px;
+        padding: 100px 0;
+    }
+    @media #{$large-mobile} {
+        height: auto;
+        padding: 60px 0;
+    }
+}
+.hero-slider-inner-image {
+    position: relative;
+    height: 100%;
+    border: 2px dashed $primary;
+    padding: 15px;
+    border-radius: 100% 100% 0 0;
+    & > img {
+        width: 100%;
+        height: auto;
+        border-radius: 100% 100% 0 0;
+        object-fit: cover;
+    }
+}
+.hero-offer-sticker {
+    position: absolute;
+    left: -30px;
+    background: #6F6D5B;
+    height: 90px;
+    width: 90px;
+    display: flex;
+    top: 0;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100% 100% 5px 100%;
+    color: #FFFFFF;
+    font-size: 23px;
+    line-height: 24px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 600;
+    @media #{$large-mobile} {
+        left: -10px;
+    }
+}
+.hero-inner-shap {
+    &-1,
+    &-2,
+    &-3,
+    &-4,
+    &-5,
+    &-6 {
+        position: absolute;
+        @media #{$large-mobile, $tablet-device} {
+            display: none;
+        }
+    }
+    &-1 {
+        top: 70%;
+        left: 45%;
+        width: 70px;
+    }
+    &-2 {
+        top: 83%;
+        left: 5%;
+        width: 80px;
+        z-index: 1;
+    }
+    &-3 {
+        bottom: 0;
+        left: 0;
+        top: auto;
+    }
+    &-4 {
+        top: 50%;
+        right: 5%;
+        left: auto;
+        width: 120px;
+    }
+    &-5 {
+        bottom: 0;
+        right: 0;
+        left: auto;
+    }
+    &-6 {
+        top: 17%;
+        left: 11%;
+        width: 60px;
+    }
+}
