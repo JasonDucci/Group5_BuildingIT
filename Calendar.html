@@ -269,14 +269,14 @@
                 <img src="assets/images/banners/breadcrumb_bag.jpg" alt="breadcrumb bg" width="1920" height="292">
             </div>
             <div class="breadcrumb-content text-center">
-                <h2 class="mb-2">Shop</h2>
+                <h2 class="mb-2">Blogs</h2>
                 <nav aria-label="breadcrumb">
                     <ol class="breadcrumb justify-content-center">
                         <li class="breadcrumb-item"><a href="#">Home</a></li>
 
-                        <li class="breadcrumb-item"><a href="shop.html">shop</a></li>
+                        <li class="breadcrumb-item"><a href="blog.html">blog</a></li>
 
-                        <li class="breadcrumb-item active" aria-current="page">Right Sidebar</li>
+                        <li class="breadcrumb-item active" aria-current="page">Blog</li>
                     </ol>
                 </nav>
             </div>
@@ -284,484 +284,209 @@
 
         <section class="shop-page section-space-ptb border-bottom-1">
             <div class="container">
-                <div class="row">
-                    <div class="col-12 col-lg-3 order-2 order-lg-2">
-                        <aside class="shop-sidebar">
-                            <div class="shop-sidebar-widget">
-                                <h5 class="shop-sidebar-widget-title">Product Categories</h5>
-                                <ul class="shop-sidebar-widget-list">
-                                    <li class="shop-sidebar-widget-list-item">
-                                        <a href="shop.html" class="shop-sidebar-widget-list-link">Accessories</a>
-                                    </li>
-                                    <li class="shop-sidebar-widget-list-item">
-                                        <a href="shop.html" class="shop-sidebar-widget-list-link">Collection</a>
-                                    </li>
-                                    <li class="shop-sidebar-widget-list-item">
-                                        <a href="shop.html" class="shop-sidebar-widget-list-link">Crafted</a>
-                                    </li>
-                                    <li class="shop-sidebar-widget-list-item">
-                                        <a href="shop.html" class="shop-sidebar-widget-list-link">Handmade</a>
-                                    </li>
-                                    <li class="shop-sidebar-widget-list-item">
-                                        <a href="shop.html" class="shop-sidebar-widget-list-link">Handmade arts</a>
-                                    </li>
-                                    <li class="shop-sidebar-widget-list-item">
-                                        <a href="shop.html" class="shop-sidebar-widget-list-link">arts crafts</a>
-                                    </li>
-                                </ul>
-                            </div>
-                            <div class="shop-sidebar-widget">
-                                <h5 class="shop-sidebar-widget-title">Filter By Price</h5>
-                                <div class="sidebar-widget-item__filter price-range-filter">
-                                    <form action="#">
-                                        <div class="filter-slider">
-                                            <div class="filter-progress"></div>
-                                        </div>
-                                        <div class="filter-range-input">
-                                            <input type="range" class="range-min" min="0" max="500" value="10" step="10" aria-label="Min value" />
-                                            <input type="range" class="range-max" min="0" max="500" value="490" step="10" aria-label="Max value" />
-                                        </div>
-                                        <p class="filter-price-value">
-                                            Price:
-                                            <input type="text" class="input-min" value="$10" aria-label="Input min value" />
-                                            <span>—</span>
-                                            <input type="text" class="input-max" value="$490" aria-label="Input max value" />
-                                        </p>
-                                        <button type="button" class="filter-price-btn">
-                                            Filter
-                                        </button>
-                                    </form>
+                <div class="row row-cols-1 row-cols-sm-2 row-cols-md-2 row-cols-lg-3 gy-8">
+                    <div class="col">
+                        <!-- Blog Post Card Start -->
+                        <article class="blog-post-card">
+                            <a href="blog-details.html" class="blog-post-card-thumbnail">
+                                <img src="assets/images/blogs/blog-1.jpg" alt="Blog Post Thumbnail" width="450" height="341" loading="lazy">
+                            </a>
+                            <div class="blog-post-card-content">
+                                <div class="blog-post-card-meta">
+                                    <a href="#" class="blog-post-card-meta-category">Company</a>
+                                    <a href="#" class="blog-post-card-meta-category">Image</a>
+                                    <a href="#" class="blog-post-card-meta-category">Travel</a>
+                                </div>
+                                <h4 class="blog-post-card-title"><a href="blog-details.html">Creating Beauty with Your Hands</a></h4>
+                                <p class="blog-post-card-excerpt">This is one of my favorite dress designers (has been for years!). Every detail in this dress 30%...</p>
+                                <div class="blog-post-card-footer">
+                                    <a href="#" class="blog-post-card-link">Read More</a>
                                 </div>
                             </div>
-                            <div class="shop-sidebar-widget">
-                                <h5 class="shop-sidebar-widget-title">Size</h5>
-                                <ul class="shop-sidebar-widget-list shop-sidebar-widget-list-size">
-                                    <li class="shop-sidebar-widget-list-item">
-                                        <input type="checkbox" id="s" name="s">
-                                        <label for="s">S (3)</label>
-                                    </li>
-                                    <li class="shop-sidebar-widget-list-item">
-                                        <input type="checkbox" id="m" name="m">
-                                        <label for="m">M (2)</label>
-                                    </li>
-                                    <li class="shop-sidebar-widget-list-item">
-                                        <input type="checkbox" id="sx" name="sx">
-                                        <label for="sx">XS (4)</label>
-                                    </li>
-                                    <li class="shop-sidebar-widget-list-item">
-                                        <input type="checkbox" id="l" name="l">
-                                        <label for="l">L (2)</label>
-                                    </li>
-                                    <li class="shop-sidebar-widget-list-item">
-                                        <input type="checkbox" id="xl" name="xl">
-                                        <label for="xl">XL (4)</label>
-                                    </li>
-                                    <li class="shop-sidebar-widget-list-item">
-                                        <input type="checkbox" id="xxl" name="xxl">
-                                        <label for="xxl">XXL (1)</label>
-                                    </li>
-                                </ul>
-                            </div>
-                            <div class="shop-sidebar-widget">
-                                <h5 class="shop-sidebar-widget-title">Brand</h5>
-                                <ul class="shop-sidebar-widget-list shop-sidebar-widget-list-brand">
-                                    <li class="shop-sidebar-widget-list-item">
-                                        <input type="checkbox" id="amazon-essentials" name="amazon-essentials">
-                                        <label for="amazon-essentials">Amazon Essentials (2)</label>
-                                    </li>
-                                    <li class="shop-sidebar-widget-list-item">
-                                        <input type="checkbox" id="fruit-of-the-loom" name="fruit-of-the-loom">
-                                        <label for="fruit-of-the-loom">Fruit of the Loom (1)</label>
-                                    </li>
-                                    <li class="shop-sidebar-widget-list-item">
-                                        <input type="checkbox" id="hanes" name="hanes">
-                                        <label for="hanes">Hanes (4)</label>
-                                    </li>
-                                    <li class="shop-sidebar-widget-list-item">
-                                        <input type="checkbox" id="resinta" name="resinta">
-                                        <label for="resinta">Resinta (2)</label>
-                                    </li>
-                                    <li class="shop-sidebar-widget-list-item">
-                                        <input type="checkbox" id="simple" name="simple">
-                                        <label for="simple">Simple Joys by Carter's (4)</label>
-                                    </li>
-                                </ul>
-                            </div>
-                            <div class="shop-sidebar-widget">
-                                <h5 class="shop-sidebar-widget-title">Product tags</h5>
-                                <div class="shop-sidebar-widget-list shop-sidebar-widget-list-tags">
-                                    <a href="shop.html" class="shop-sidebar-widget-list-link">Color Pencils</a>
-                                    <a href="shop.html" class="shop-sidebar-widget-list-link">Collection</a>
-                                    <a href="shop.html" class="shop-sidebar-widget-list-link">Clothing</a>
-                                    <a href="shop.html" class="shop-sidebar-widget-list-link">Handmade</a>
-                                    <a href="shop.html" class="shop-sidebar-widget-list-link">Arts crafts</a>
-                                    <a href="shop.html" class="shop-sidebar-widget-list-link">Supplies</a>
-                                </div>
-                            </div>
-                        </aside>
+                        </article> <!-- Blog Post Card End -->
                     </div>
-                    <div class="col-12 col-lg-9 order-1 order-lg-1 pe-xl-6">
-                        <div class="shop-all-product-wrapper">
-                            <div class="shop-toolbar">
-                                <div class="shop-toolbar-left-side d-flex">
-                                    <div class="shop-views shop-views-wrap">
-                                        <button class="shop-display active" data-display="grid">
-                                            <i class="fa-solid fa-table-cells-large"></i>
-                                            <span class="visually-hidden">Grid View</span>
-                                        </button>
-                                        <button class="shop-display" data-display="list">
-                                            <i class="fa-solid fa-list"></i>
-                                            <span class="visually-hidden">List View</span>
-                                        </button>
-                                    </div>
-                                    <p class="shop-products-result-count">Showing 1–12 of 19 results</p>
+                    <div class="col">
+                        <!-- Blog Post Card Start -->
+                        <article class="blog-post-card">
+                            <a href="blog-details.html" class="blog-post-card-thumbnail">
+                                <img src="assets/images/blogs/blog-2.jpg" alt="Blog Post Thumbnail" width="450" height="341" loading="lazy">
+                            </a>
+                            <div class="blog-post-card-content">
+                                <div class="blog-post-card-meta">
+                                    <a href="#" class="blog-post-card-meta-category">Company</a>
+                                    <a href="#" class="blog-post-card-meta-category">WORDPRESS</a>
                                 </div>
-                                <div class="shop-toolbar-right-side">
-                                    <select name="orderby" class="shop-selector-orderby" aria-label="Shop order">
-                                        <option value="menu_order" selected="selected">Default sorting</option>
-                                        <option value="popularity">Sort by popularity</option>
-                                        <option value="rating">Sort by average rating</option>
-                                        <option value="date">Sort by latest</option>
-                                        <option value="price">Sort by price: low to high</option>
-                                        <option value="price-desc">Sort by price: high to low</option>
-                                    </select>
+                                <h4 class="blog-post-card-title"><a href="blog-details.html">The Magic of Handcrafted Artistry</a></h4>
+                                <p class="blog-post-card-excerpt">This is one of my favorite dress designers (has been for years!). Every detail in this dress 30%...</p>
+                                <div class="blog-post-card-footer">
+                                    <a href="#" class="blog-post-card-link">Read More</a>
                                 </div>
                             </div>
-                        </div>
-                        <div class="products-wrapper shop-view-item-grid">
-                            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-3">
-
-                                <div class="col">
-                                    <!-- Product Card Start -->
-                                    <div class="product-card">
-                                        <div class="product-card-thumb-area">
-                                            <a href="product-details.html" class="product-card-thumb">
-                                                <img class="product-card-thumb-primary" src="assets/images/products/product-1.jpg" alt="Product Image primary 1" width="340" height="320">
-                                            </a>
-                                            <button class="product-card-action-quickview" data-bs-target="#product-modal-active" data-bs-toggle="modal">Quick View</button>
-
-                                            <ul class="product-card-action-links">
-                                                <li class="product-card-action-item">
-                                                    <a href="wishlist.html" class="product-card-action-link" aria-label="wishlist">
-                                                        <i class="fa-regular fa-heart"></i>
-                                                    </a>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                        <div class="product-card-content">
-                                            <h4 class="product-card-title">
-                                                <a href="product-details.html">Ceramic Top X 21</a>
-                                            </h4>
-                                            <div class="product-card-price">
-                                                <span class="visually-hidden">Price</span>
-                                                <span class="product-card-regular-price">$83.00</span>
-                                            </div>
-                                            <div class="product-card-list-view-action">
-                                                <p class="fs-16">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce posuere metus vitae arcu imperdiet, id aliquet ante scelerisque. Sed sit amet sem vitae urna fringilla tempus.</p>
-                                                <a href="product-details.html" class="btn-outline-dark btn-md">Add to Cart</a>
-                                            </div>
-                                            <a href="product-details.html" class="product-card-box-cart">Add to Cart</a>
-                                        </div>
-                                    </div> <!-- Product Card End -->
+                        </article> <!-- Blog Post Card End -->
+                    </div>
+                    <div class="col">
+                        <!-- Blog Post Card Start -->
+                        <article class="blog-post-card">
+                            <a href="blog-details.html" class="blog-post-card-thumbnail">
+                                <img src="assets/images/blogs/blog-3.jpg" alt="Blog Post Thumbnail" width="450" height="341" loading="lazy">
+                            </a>
+                            <div class="blog-post-card-content">
+                                <div class="blog-post-card-meta">
+                                    <a href="#" class="blog-post-card-meta-category">AUDIO</a>
+                                    <a href="#" class="blog-post-card-meta-category"> TRAVEL</a>
                                 </div>
-                                <div class="col">
-                                    <!-- Product Card Start -->
-                                    <div class="product-card">
-                                        <div class="product-card-thumb-area">
-                                            <a href="product-details.html" class="product-card-thumb">
-                                                <img class="product-card-thumb-primary" src="assets/images/products/product-2.jpg" alt="Product Image primary 2" width="340" height="320">
-                                            </a>
-                                            <button class="product-card-action-quickview" data-bs-target="#product-modal-active" data-bs-toggle="modal">Quick View</button>
-
-                                            <ul class="product-card-action-links">
-                                                <li class="product-card-action-item">
-                                                    <a href="wishlist.html" class="product-card-action-link" aria-label="wishlist">
-                                                        <i class="fa-regular fa-heart"></i>
-                                                    </a>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                        <div class="product-card-content">
-                                            <h4 class="product-card-title">
-                                                <a href="product-details.html">ZenStone Wood Smoking Pipes</a>
-                                            </h4>
-                                            <div class="product-card-price">
-                                                <span class="visually-hidden">Price</span>
-                                                <span class="product-card-regular-price">$77.00</span>
-                                            </div>
-                                            <div class="product-card-list-view-action">
-                                                <p class="fs-16">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce posuere metus vitae arcu imperdiet, id aliquet ante scelerisque. Sed sit amet sem vitae urna fringilla tempus.</p>
-                                                <a href="product-details.html" class="btn-outline-dark btn-md">Add to Cart</a>
-                                            </div>
-                                            <a href="product-details.html" class="product-card-box-cart">Add to Cart</a>
-                                        </div>
-                                    </div> <!-- Product Card End -->
-                                </div>
-                                <div class="col">
-                                    <!-- Product Card Start -->
-                                    <div class="product-card">
-                                        <div class="product-card-thumb-area">
-                                            <a href="product-details.html" class="product-card-thumb">
-                                                <img class="product-card-thumb-primary" src="assets/images/products/product-3.jpg" alt="Product Image primary 2" width="340" height="320">
-                                                <span class="product-card-label">Sale</span>
-                                            </a>
-                                            <button class="product-card-action-quickview" data-bs-target="#product-modal-active" data-bs-toggle="modal">Quick View</button>
-
-                                            <ul class="product-card-action-links">
-                                                <li class="product-card-action-item">
-                                                    <a href="wishlist.html" class="product-card-action-link" aria-label="wishlist">
-                                                        <i class="fa-regular fa-heart"></i>
-                                                    </a>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                        <div class="product-card-content">
-                                            <h4 class="product-card-title">
-                                                <a href="product-details.html">Bembo Classic Leather Tote Bag</a>
-                                            </h4>
-                                            <div class="product-card-price">
-                                                <span class="visually-hidden">Price</span>
-                                                <span class="product-card-old-price"><del>$60.00</del></span>
-                                                <span class="product-card-regular-price">$50.00</span>
-                                            </div>
-                                            <div class="product-card-list-view-action">
-                                                <p class="fs-16">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce posuere metus vitae arcu imperdiet, id aliquet ante scelerisque. Sed sit amet sem vitae urna fringilla tempus.</p>
-                                                <a href="product-details.html" class="btn-outline-dark btn-md">Add to Cart</a>
-                                            </div>
-                                            <a href="product-details.html" class="product-card-box-cart">Add to Cart</a>
-                                        </div>
-                                    </div> <!-- Product Card End -->
-                                </div>
-                                <div class="col">
-                                    <!-- Product Card Start -->
-                                    <div class="product-card">
-                                        <div class="product-card-thumb-area">
-                                            <a href="product-details.html" class="product-card-thumb">
-                                                <img class="product-card-thumb-primary" src="assets/images/products/product-4.jpg" alt="Product Image primary 4" width="340" height="320">
-                                            </a>
-                                            <button class="product-card-action-quickview" data-bs-target="#product-modal-active" data-bs-toggle="modal">Quick View</button>
-
-                                            <ul class="product-card-action-links">
-                                                <li class="product-card-action-item">
-                                                    <a href="wishlist.html" class="product-card-action-link" aria-label="wishlist">
-                                                        <i class="fa-regular fa-heart"></i>
-                                                    </a>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                        <div class="product-card-content">
-                                            <h4 class="product-card-title">
-                                                <a href="product-details.html">Prepper Bag GT3</a>
-                                            </h4>
-                                            <div class="product-card-price">
-                                                <span class="visually-hidden">Price</span>
-                                                <span class="product-card-old-price"><del>$47.00</del></span>
-                                                <span class="product-card-regular-price">$42.00</span>
-                                            </div>
-                                            <div class="product-card-list-view-action">
-                                                <p class="fs-16">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce posuere metus vitae arcu imperdiet, id aliquet ante scelerisque. Sed sit amet sem vitae urna fringilla tempus.</p>
-                                                <a href="product-details.html" class="btn-outline-dark btn-md">Add to Cart</a>
-                                            </div>
-                                            <a href="product-details.html" class="product-card-box-cart">Add to Cart</a>
-                                        </div>
-                                    </div> <!-- Product Card End -->
-                                </div>
-                                <div class="col">
-                                    <!-- Product Card Start -->
-                                    <div class="product-card">
-                                        <div class="product-card-thumb-area">
-                                            <a href="product-details.html" class="product-card-thumb">
-                                                <img class="product-card-thumb-primary" src="assets/images/products/product-5.jpg" alt="Product Image primary 5" width="340" height="320">
-                                            </a>
-                                            <button class="product-card-action-quickview" data-bs-target="#product-modal-active" data-bs-toggle="modal">Quick View</button>
-
-                                            <ul class="product-card-action-links">
-                                                <li class="product-card-action-item">
-                                                    <a href="wishlist.html" class="product-card-action-link" aria-label="wishlist">
-                                                        <i class="fa-regular fa-heart"></i>
-                                                    </a>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                        <div class="product-card-content">
-                                            <h4 class="product-card-title">
-                                                <a href="product-details.html">Wooden Bowl G38</a>
-                                            </h4>
-                                            <div class="product-card-price">
-                                                <span class="visually-hidden">Price</span>
-                                                <span class="product-card-regular-price">$71.00</span>
-                                            </div>
-                                            <div class="product-card-list-view-action">
-                                                <p class="fs-16">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce posuere metus vitae arcu imperdiet, id aliquet ante scelerisque. Sed sit amet sem vitae urna fringilla tempus.</p>
-                                                <a href="product-details.html" class="btn-outline-dark btn-md">Add to Cart</a>
-                                            </div>
-                                            <a href="product-details.html" class="product-card-box-cart">Add to Cart</a>
-                                        </div>
-                                    </div> <!-- Product Card End -->
-                                </div>
-                                <div class="col">
-                                    <!-- Product Card Start -->
-                                    <div class="product-card">
-                                        <div class="product-card-thumb-area">
-                                            <a href="product-details.html" class="product-card-thumb">
-                                                <img class="product-card-thumb-primary" src="assets/images/products/product-4.jpg" alt="Product Image primary 4" width="340" height="320">
-                                            </a>
-                                            <button class="product-card-action-quickview" data-bs-target="#product-modal-active" data-bs-toggle="modal">Quick View</button>
-
-                                            <ul class="product-card-action-links">
-                                                <li class="product-card-action-item">
-                                                    <a href="wishlist.html" class="product-card-action-link" aria-label="wishlist">
-                                                        <i class="fa-regular fa-heart"></i>
-                                                    </a>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                        <div class="product-card-content">
-                                            <h4 class="product-card-title">
-                                                <a href="product-details.html">TranquilTea Ceramic Teapot</a>
-                                            </h4>
-                                            <div class="product-card-price">
-                                                <span class="visually-hidden">Price</span>
-                                                <span class="product-card-regular-price">$42.00</span>
-                                            </div>
-                                            <div class="product-card-list-view-action">
-                                                <p class="fs-16">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce posuere metus vitae arcu imperdiet, id aliquet ante scelerisque. Sed sit amet sem vitae urna fringilla tempus.</p>
-                                                <a href="product-details.html" class="btn-outline-dark btn-md">Add to Cart</a>
-                                            </div>
-                                            <a href="product-details.html" class="product-card-box-cart">Add to Cart</a>
-                                        </div>
-                                    </div> <!-- Product Card End -->
-                                </div>
-                                <div class="col">
-                                    <!-- Product Card Start -->
-                                    <div class="product-card">
-                                        <div class="product-card-thumb-area">
-                                            <a href="product-details.html" class="product-card-thumb">
-                                                <img class="product-card-thumb-primary" src="assets/images/products/product-7.jpg" alt="Product Image primary 7" width="340" height="320">
-                                            </a>
-                                            <button class="product-card-action-quickview" data-bs-target="#product-modal-active" data-bs-toggle="modal">Quick View</button>
-
-                                            <ul class="product-card-action-links">
-                                                <li class="product-card-action-item">
-                                                    <a href="wishlist.html" class="product-card-action-link" aria-label="wishlist">
-                                                        <i class="fa-regular fa-heart"></i>
-                                                    </a>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                        <div class="product-card-content">
-                                            <h4 class="product-card-title">
-                                                <a href="product-details.html">Natural Wood Handmade Box</a>
-                                            </h4>
-                                            <div class="product-card-price">
-                                                <span class="visually-hidden">Price</span>
-                                                <span class="product-card-old-price"><del>$47.00</del></span>
-                                                <span class="product-card-regular-price">$42.00</span>
-                                            </div>
-                                            <div class="product-card-list-view-action">
-                                                <p class="fs-16">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce posuere metus vitae arcu imperdiet, id aliquet ante scelerisque. Sed sit amet sem vitae urna fringilla tempus.</p>
-                                                <a href="product-details.html" class="btn-outline-dark btn-md">Add to Cart</a>
-                                            </div>
-                                            <a href="product-details.html" class="product-card-box-cart">Add to Cart</a>
-                                        </div>
-                                    </div> <!-- Product Card End -->
-                                </div>
-                                <div class="col">
-                                    <!-- Product Card Start -->
-                                    <div class="product-card">
-                                        <div class="product-card-thumb-area">
-                                            <a href="product-details.html" class="product-card-thumb">
-                                                <img class="product-card-thumb-primary" src="assets/images/products/product-8.jpg" alt="Product Image primary 8" width="340" height="320">
-                                            </a>
-                                            <button class="product-card-action-quickview" data-bs-target="#product-modal-active" data-bs-toggle="modal">Quick View</button>
-
-                                            <ul class="product-card-action-links">
-                                                <li class="product-card-action-item">
-                                                    <a href="wishlist.html" class="product-card-action-link" aria-label="wishlist">
-                                                        <i class="fa-regular fa-heart"></i>
-                                                    </a>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                        <div class="product-card-content">
-                                            <h4 class="product-card-title">
-                                                <a href="product-details.html">Spa Serenity Wood Basket</a>
-                                            </h4>
-                                            <div class="product-card-price">
-                                                <span class="visually-hidden">Price</span>
-                                                <span class="product-card-old-price"><del>$46.00</del></span>
-                                                <span class="product-card-regular-price">$41.00</span>
-                                            </div>
-                                            <div class="product-card-list-view-action">
-                                                <p class="fs-16">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce posuere metus vitae arcu imperdiet, id aliquet ante scelerisque. Sed sit amet sem vitae urna fringilla tempus.</p>
-                                                <a href="product-details.html" class="btn-outline-dark btn-md">Add to Cart</a>
-                                            </div>
-                                            <a href="product-details.html" class="product-card-box-cart">Add to Cart</a>
-                                        </div>
-                                    </div> <!-- Product Card End -->
-                                </div>
-                                <div class="col">
-                                    <!-- Product Card Start -->
-                                    <div class="product-card">
-                                        <div class="product-card-thumb-area">
-                                            <a href="product-details.html" class="product-card-thumb">
-                                                <img class="product-card-thumb-primary" src="assets/images/products/product-9.jpg" alt="Product Image primary 9" width="340" height="320">
-                                            </a>
-                                            <button class="product-card-action-quickview" data-bs-target="#product-modal-active" data-bs-toggle="modal">Quick View</button>
-
-                                            <ul class="product-card-action-links">
-                                                <li class="product-card-action-item">
-                                                    <a href="wishlist.html" class="product-card-action-link" aria-label="wishlist">
-                                                        <i class="fa-regular fa-heart"></i>
-                                                    </a>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                        <div class="product-card-content">
-                                            <h4 class="product-card-title">
-                                                <a href="product-details.html">Handmade flower basket</a>
-                                            </h4>
-                                            <div class="product-card-price">
-                                                <span class="visually-hidden">Price</span>
-                                                <span class="product-card-old-price"><del>$36.00</del></span>
-                                                <span class="product-card-regular-price">$33.00</span>
-                                            </div>
-                                            <div class="product-card-list-view-action">
-                                                <p class="fs-16">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce posuere metus vitae arcu imperdiet, id aliquet ante scelerisque. Sed sit amet sem vitae urna fringilla tempus.</p>
-                                                <a href="product-details.html" class="btn-outline-dark btn-md">Add to Cart</a>
-                                            </div>
-                                            <a href="product-details.html" class="product-card-box-cart">Add to Cart</a>
-                                        </div>
-                                    </div> <!-- Product Card End -->
+                                <h4 class="blog-post-card-title"><a href="blog-details.html">Celebrating the World of Handcrafted Articles</a></h4>
+                                <p class="blog-post-card-excerpt">This is one of my favorite dress designers (has been for years!). Every detail in this dress 30%...</p>
+                                <div class="blog-post-card-footer">
+                                    <a href="#" class="blog-post-card-link">Read More</a>
                                 </div>
                             </div>
-                            <!-- Shop Pagination Area Start -->
-                            <div class="pagination-area">
-                                <nav aria-label="Page navigation">
-                                    <ul class="pagination">
-                                        <li class="page-item">
-                                            <a class="page-link" href="#" aria-label="Previous">
-                                                <span aria-hidden="true">←</span>
-                                            </a>
-                                        </li>
-                                        <li class="page-item active" aria-current="page">
-                                            <a class="page-link" href="#">1</a>
-                                        </li>
-                                        <li class="page-item">
-                                            <a class="page-link" href="#">2</a>
-                                        </li>
-                                        <li class="page-item">
-                                            <a class="page-link" href="#" aria-label="Next">
-                                                <span aria-hidden="true">→</span>
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </nav>
+                        </article> <!-- Blog Post Card End -->
+                    </div>
+                    <div class="col">
+                        <!-- Blog Post Card Start -->
+                        <article class="blog-post-card">
+                            <a href="blog-details.html" class="blog-post-card-thumbnail">
+                                <img src="assets/images/blogs/blog-4.jpg" alt="Blog Post Thumbnail" width="450" height="341" loading="lazy">
+                            </a>
+                            <div class="blog-post-card-content">
+                                <div class="blog-post-card-meta">
+                                    <a href="#" class="blog-post-card-meta-category">Company</a>
+                                    <a href="#" class="blog-post-card-meta-category">Image</a>
+                                    <a href="#" class="blog-post-card-meta-category">Travel</a>
+                                </div>
+                                <h4 class="blog-post-card-title"><a href="blog-details.html">Creating Timeless Treasures with Artistic Flair</a></h4>
+                                <p class="blog-post-card-excerpt">This is one of my favorite dress designers (has been for years!). Every detail in this dress 30%...</p>
+                                <div class="blog-post-card-footer">
+                                    <a href="#" class="blog-post-card-link">Read More</a>
+                                </div>
                             </div>
-                            <!-- Shop Pagination Area End -->
-                        </div>
+                        </article> <!-- Blog Post Card End -->
+                    </div>
+                    <div class="col">
+                        <!-- Blog Post Card Start -->
+                        <article class="blog-post-card">
+                            <a href="blog-details.html" class="blog-post-card-thumbnail">
+                                <img src="assets/images/blogs/blog-5.jpg" alt="Blog Post Thumbnail" width="450" height="341" loading="lazy">
+                            </a>
+                            <div class="blog-post-card-content">
+                                <div class="blog-post-card-meta">
+                                    <a href="#" class="blog-post-card-meta-category">Company</a>
+                                    <a href="#" class="blog-post-card-meta-category">Image</a>
+                                    <a href="#" class="blog-post-card-meta-category">Travel</a>
+                                </div>
+                                <h4 class="blog-post-card-title"><a href="blog-details.html">The Joy of Handmade Artisanal Pieces</a></h4>
+                                <p class="blog-post-card-excerpt">This is one of my favorite dress designers (has been for years!). Every detail in this dress 30%...</p>
+                                <div class="blog-post-card-footer">
+                                    <a href="#" class="blog-post-card-link">Read More</a>
+                                </div>
+                            </div>
+                        </article> <!-- Blog Post Card End -->
+                    </div>
+                    <div class="col">
+                        <!-- Blog Post Card Start -->
+                        <article class="blog-post-card">
+                            <a href="blog-details.html" class="blog-post-card-thumbnail">
+                                <img src="assets/images/blogs/blog-6.jpg" alt="Blog Post Thumbnail" width="450" height="341" loading="lazy">
+                            </a>
+                            <div class="blog-post-card-content">
+                                <div class="blog-post-card-meta">
+                                    <a href="#" class="blog-post-card-meta-category">Company</a>
+                                    <a href="#" class="blog-post-card-meta-category">Travel</a>
+                                </div>
+                                <h4 class="blog-post-card-title"><a href="blog-details.html">The Beauty of Craftsmanship in a Digital Age</a></h4>
+                                <p class="blog-post-card-excerpt">This is one of my favorite dress designers (has been for years!). Every detail in this dress 30%...</p>
+                                <div class="blog-post-card-footer">
+                                    <a href="#" class="blog-post-card-link">Read More</a>
+                                </div>
+                            </div>
+                        </article> <!-- Blog Post Card End -->
+                    </div>
+                    <div class="col">
+                        <!-- Blog Post Card Start -->
+                        <article class="blog-post-card">
+                            <a href="blog-details.html" class="blog-post-card-thumbnail">
+                                <img src="assets/images/blogs/blog-7.jpg" alt="Blog Post Thumbnail" width="450" height="341" loading="lazy">
+                            </a>
+                            <div class="blog-post-card-content">
+                                <div class="blog-post-card-meta">
+                                    <a href="#" class="blog-post-card-meta-category">Image</a>
+                                    <a href="#" class="blog-post-card-meta-category">Travel</a>
+                                </div>
+                                <h4 class="blog-post-card-title"><a href="blog-details.html">Exploring the World of Artisan Craftsmanship</a></h4>
+                                <p class="blog-post-card-excerpt">This is one of my favorite dress designers (has been for years!). Every detail in this dress 30%...</p>
+                                <div class="blog-post-card-footer">
+                                    <a href="#" class="blog-post-card-link">Read More</a>
+                                </div>
+                            </div>
+                        </article> <!-- Blog Post Card End -->
+                    </div>
+                    <div class="col">
+                        <!-- Blog Post Card Start -->
+                        <article class="blog-post-card">
+                            <a href="blog-details.html" class="blog-post-card-thumbnail">
+                                <img src="assets/images/blogs/blog-8.jpg" alt="Blog Post Thumbnail" width="450" height="341" loading="lazy">
+                            </a>
+                            <div class="blog-post-card-content">
+                                <div class="blog-post-card-meta">
+                                    <a href="#" class="blog-post-card-meta-category">Company</a>
+                                    <a href="#" class="blog-post-card-meta-category">Image</a>
+                                    <a href="#" class="blog-post-card-meta-category">Travel</a>
+                                </div>
+                                <h4 class="blog-post-card-title"><a href="blog-details.html">The Power of Handmade Art in Everyday Life</a></h4>
+                                <p class="blog-post-card-excerpt">This is one of my favorite dress designers (has been for years!). Every detail in this dress 30%...</p>
+                                <div class="blog-post-card-footer">
+                                    <a href="#" class="blog-post-card-link">Read More</a>
+                                </div>
+                            </div>
+                        </article> <!-- Blog Post Card End -->
+                    </div>
+                    <div class="col">
+                        <!-- Blog Post Card Start -->
+                        <article class="blog-post-card">
+                            <a href="blog-details.html" class="blog-post-card-thumbnail">
+                                <img src="assets/images/blogs/blog-9.jpg" alt="Blog Post Thumbnail" width="450" height="341" loading="lazy">
+                            </a>
+                            <div class="blog-post-card-content">
+                                <div class="blog-post-card-meta">
+                                    <a href="#" class="blog-post-card-meta-category">Company</a>
+                                    <a href="#" class="blog-post-card-meta-category">Image</a>
+                                    <a href="#" class="blog-post-card-meta-category">Travel</a>
+                                </div>
+                                <h4 class="blog-post-card-title"><a href="blog-details.html">The Meaning Behind Handmade Artistry</a></h4>
+                                <p class="blog-post-card-excerpt">This is one of my favorite dress designers (has been for years!). Every detail in this dress 30%...</p>
+                                <div class="blog-post-card-footer">
+                                    <a href="#" class="blog-post-card-link">Read More</a>
+                                </div>
+                            </div>
+                        </article> <!-- Blog Post Card End -->
                     </div>
                 </div>
+
+                <!-- Shop Pagination Area Start -->
+                <div class="pagination-area">
+                    <nav aria-label="Page navigation">
+                        <ul class="pagination">
+                            <li class="page-item">
+                                <a class="page-link" href="#" aria-label="Previous">
+                                    <span aria-hidden="true">←</span>
+                                </a>
+                            </li>
+                            <li class="page-item active" aria-current="page">
+                                <a class="page-link" href="#">1</a>
+                            </li>
+                            <li class="page-item">
+                                <a class="page-link" href="#">2</a>
+                            </li>
+                            <li class="page-item">
+                                <a class="page-link" href="#" aria-label="Next">
+                                    <span aria-hidden="true">→</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <!-- Shop Pagination Area End -->
             </div>
         </section>
 
@@ -1092,110 +817,6 @@
     </div>
 
 
-
-    <!-- Product Modal Start -->
-    <div class="modal fade" id="product-modal-active" aria-hidden="true" tabindex="-1">
-        <div class="modal-dialog modal-dialog-centered product-quick-view-modal">
-            <div class="modal-content">
-                <button type="button" class="btn-close position-absolute end-0 p-2" data-bs-dismiss="modal" aria-label="Close"></button>
-                <div class="product-item-details px-3 py-4">
-                    <div class="row">
-                        <div class="col-md-6">
-                            <div class="swiper product-details-lg-active">
-                                <div class="swiper-wrapper">
-                                    <div class="swiper-slide">
-                                        <img class="w-full" src="assets/images/large-products/large-product-01.jpg" alt="image" />
-                                    </div>
-                                    <div class="swiper-slide">
-                                        <img class="w-full" src="assets/images/large-products/large-product-02.jpg" alt="image" />
-                                    </div>
-                                    <div class="swiper-slide">
-                                        <img class="w-full" src="assets/images/large-products/large-product-03.jpg" alt="image" />
-                                    </div>
-                                    <div class="swiper-slide">
-                                        <img class="w-full" src="assets/images/large-products/large-product-04.jpg" alt="image" />
-                                    </div>
-                                </div>
-                                <div class="product-details-button-next product-details-navigation-next"><i class="fa-solid fa-chevron-right"></i></div>
-                                <div class="product-details-button-prev product-details-navigation-prev"><i class="fa-solid fa-chevron-left"></i></div>
-                            </div>
-                            <div class="swiper product-details-sm-thum-active mt-2">
-                                <div class="swiper-wrapper">
-                                    <div class="swiper-slide">
-                                        <img src="assets/images/large-products/large-product-01.jpg" alt="image" />
-                                    </div>
-                                    <div class="swiper-slide">
-                                        <img src="assets/images/large-products/large-product-02.jpg" alt="image" />
-                                    </div>
-                                    <div class="swiper-slide">
-                                        <img src="assets/images/large-products/large-product-03.jpg" alt="image" />
-                                    </div>
-                                    <div class="swiper-slide">
-                                        <img src="assets/images/large-products/large-product-04.jpg" alt="image" />
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="product-item-details-box">
-                                <h4 class="product-item-details-title">Rendering sofa isolated</h4>
-                                <div class="product-item-details-rating d-flex align-items-center gap-2 text-black">
-                                    <div class="product-item-details-rating-list d-flex">
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                    </div>
-                                    <a href="#" class="fs-16">(1 customer review)</a>
-                                </div>
-
-                                <div class="product-card-price mt-2">
-                                    <span class="product-card-old-price"><del>$60.00</del></span>
-                                    <span class="product-card-regular-price">$50.00</span>
-                                </div>
-
-                                <p class="product-item-details-description mt-2 fs-16">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna...</p>
-
-                                <div class="product-item-stock in-stock mb-3">
-                                    <span class="stock-label visually-hidden">Availability:</span>
-                                    <span class="product-item-stock-in">994 In Stock</span>
-                                </div>
-
-                                <div class="product-item-action-box d-flex gap-2 align-items-center">
-                                    <form action="#" class="product-item-quantity">
-                                        <button class="product-item-quantity-decrement product-item-quantity-button" type="button">-</button>
-                                        <input type="text" class="product-item-quantity-input" value="1">
-                                        <button class="product-item-quantity-increment product-item-quantity-button" type="button">+</button>
-                                    </form>
-                                    <button class="btn btn-primary btn-lg">Add to cart</button>
-                                </div>
-                                <a href="wishlist.html" class="product-item-wishlist-action mt-3">
-                                    <i class="fa-regular fa-heart"></i><span>Add to wishlist</span>
-                                </a>
-                                <div class="social-share-wrap d-flex gap-1 mt-3">
-                                    <p class="fs-16">SHARE: </p>
-                                    <div class="social-share social-share-in-color d-flex gap-2">
-                                        <a class="social-share-link facebook" href="#"  aria-label="facebook">
-                                            <i class="fab fa-facebook-f"></i>
-                                        </a>
-                                        <a class="social-share-link twitter" href="#"  aria-label="twitter">
-                                            <i class="fa-brands fa-x-twitter"></i>
-                                        </a>
-                                        <a class="social-share-link instagram" href="#"  aria-label="instagram">
-                                            <i class="fa-brands fa-instagram"></i>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-
-            </div>
-        </div>
-    </div> <!-- Product Modal End -->
 
     <!-- Footer Area Start -->
     <footer class="footer-area">
