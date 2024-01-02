@@ -14,13 +14,13 @@ module.exports = {
         xs: "475px",
       },
       colors: {
-        main: "#080A1A", //#080A1A
-        subMain: "#F20000", //#F20000
-        dry: "#0B0F29", //#0B0F29
+        main: "#685951", //#080A1A
+        subMain: "#867a74", //#F20000
+        dry: "#a49b97", //#0B0F29
         star: "#FFB000", //#FFB000
-        text: "#C0C0C0", //#C0C0C0
-        border: "#4b5563", //#4b5563
-        dryGray: "#E0D5D5", //#E0D5D5
+        text: "#FFFFFF", //#C0C0C0
+        border: "#c3bdb9", //#4b5563
+        dryGray: "#e1dedc", //#E0D5D5
       },
     },
   },
