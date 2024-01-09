@@ -15,25 +15,11 @@ function AboutUs() {
               </h3>
               <div className="mt-3 text-sm leading-8 text-text">
                 <p>
-                  Lorem Ipsum is simply dummy text of the printing and
-                  typesetting industry. Lorem Ipsum has been the industry's
-                  standard dummy text ever since the 1500s, when an unknown
-                  printer took a galley of type and scrambled it to make a type
-                  specimen book. It has survived not only five centuries, but
-                  also the leap into electronic typesetting, remaining
-                  essentially unchanged. It was popularised in the 1960s with
-                  the release of Letraset sheets containing Lorem Ipsum
-                  passages, and more recently with desktop publishing software
-                  like Aldus PageMaker including versions of Lorem Ipsum.
+                  
+Welcome to Emree, a digital haven that transcends time and space, inviting you to embark on an extraordinary journey through the corridors of history, culture, and art. Emree is not just a museum; it's a virtual sanctuary where the past comes alive, and the present is enriched by the beauty of human creativity.
                 </p>
                 <p>
-                  Lorem Ipsum is simply dummy text of the printing and
-                  typesetting industry. Lorem Ipsum has been the industry's
-                  standard dummy text ever since the 1500s, when an unknown
-                  printer took a galley of type and scrambled it to make a type
-                  specimen book. It has survived not only five centuries, but
-                  also the leap into electronic typesetting, remaining
-                  essentially unchanged.
+                Our mission at Emree is to curate a diverse collection that celebrates the richness of global heritage. From ancient civilizations to contemporary masterpieces, we strive to connect visitors with the profound stories and artistic expressions that shape our world. Immerse yourself in captivating exhibits that span epochs and continents, offering a panoramic view of humanity's collective narrative.
                 </p>
               </div>
               <div className="grid md:grid-cols-2 gap-6 mt-8">

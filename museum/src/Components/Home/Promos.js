@@ -11,15 +11,7 @@ function Promos() {
             Discover Our Famous Masterpieces <br /> Enjoy free access
           </h1>
           <p className="text-text text-sm xl:text-base leading-6 xl:leading-8">
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy text
-            ever since the 1500s, when an unknown printer took a galley of type
-            and scrambled it to make a type specimen book. It has survived not
-            only five centuries, but also the leap into electronic typesetting,
-            remaining essentially unchanged. It was popularised in the 1960s
-            with the release of Letraset sheets containing Lorem Ipsum passages,
-            and more recently with desktop publishing software like Aldus
-            PageMaker including versions of Lorem Ipsum.
+          At Emree, we believe in the power of education and the transformative influence of art. Join us in unraveling the tapestry of human history, where every artifact tells a tale, and every brushstroke echoes an artist's vision. Whether you're a seasoned scholar or a curious novice, Emree welcomes you to embark on an immersive experience where the boundaries of time dissolve, and the beauty of the human spirit unfolds.
           </p>
           <div className="flex gap-4 md:text-lg text-sm ">
             <div className="flex-rows gap-4 bg-black text-subMain px-6 py-3 rounded font-bold">
