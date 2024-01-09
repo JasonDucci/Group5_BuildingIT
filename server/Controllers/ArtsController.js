@@ -25,7 +25,7 @@ const getArts = asyncHandler(async (req, res) => {
     };
     //load more arts
     const page = Number(req.query.pageNumber) || 1; //set it to one if no page
-    const limit = 8; //number arts per page
+    const limit = 12; //number arts per page
     const skip = (page - 1) * limit; //skip  number arts per page
 
     // find arts by query,limit and skip
