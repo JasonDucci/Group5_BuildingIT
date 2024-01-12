@@ -15,23 +15,23 @@ import { reviewArtAction } from "../../Redux/Actions/ArtsActions";
 
 const Ratings = [
   {
-    title: "0 - NN",
+    title: "0 - Poor",
     value: 0,
   },
   {
-    title: "1 - PA",
+    title: "1 - Fair",
     value: 1,
   },
   {
-    title: "2 - CR",
+    title: "2 - Good",
     value: 2,
   },
   {
-    title: "3 - DI",
+    title: "3 - Very Good",
     value: 3,
   },
   {
-    title: "4 - HD",
+    title: "4 - Execellent",
     value: 4,
   },
   {
